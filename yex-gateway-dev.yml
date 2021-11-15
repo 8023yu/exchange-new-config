@@ -1,0 +1,14 @@
+zuul:
+  routes:
+    legacy:
+      path: /**
+      service-id: yex-web
+      strip-prefix: false
+eureka:
+  client:
+    service-url:
+      defaultZone: http://microservice:123456@localhost:8761/eureka
+hystrix:
+  threadpool:
+    default:
+      coreSize: 100 #缺省为10
