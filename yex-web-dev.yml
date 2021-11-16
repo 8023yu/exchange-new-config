@@ -16,7 +16,7 @@ spring:
         url: jdbc:mysql://rm-j6ca4cg6lw713llwgvm.mysql.rds.aliyuncs.com:3306/yex_exchange?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&useSSL=false # 内网服务器
         username: root
         password: Alchemy@nicai20201216
-        driverClassName: com.mysql.cj.jdbc.Driver
+        driverClassName: com.mysql.jdbc.Driver
         sql-script-encoding: utf-8
         initialSize: 5 #初始化大小
         minIdle: 5 #最小
