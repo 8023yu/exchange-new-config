@@ -13,7 +13,7 @@ spring:
     timeout: 20000    # 连接超时时间（毫秒）
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
-    url: jdbc:mysql://rm-j6ca4cg6lw713llwgvm.mysql.rds.aliyuncs.com:3306/bitstoredb?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true
+    url: jdbc:mysql://rm-j6ca4cg6lw713llwgvm.mysql.rds.aliyuncs.com:3306/yex_exchange?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true
     username: root
     password: Alchemy@nicai20201216
     driver-class-name: com.mysql.jdbc.Driver
